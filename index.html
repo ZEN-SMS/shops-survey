@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grocery Stores Survey</title>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="Leaflet.Legend-master/src/leaflet.legend.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="leaflet/leaflet.js"></script>
+	<script src="leaflet.shapefile/leaflet.shpfile.js"></script>
+	<script src="shapefile-js/dist/shp.js"></script>
+	<script src="Leaflet.Legend-master/src/leaflet.legend.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+			<h1 id="title_question">Do you remember any grocery stores that closed in Trondheim ?</h1>
+		<div id="language-links">
+			<img href="#" src="img/FlagUK.png" onclick="setLanguage('en')" title="English version"></img> | <img href="#" src="img/FlagNO.png" onclick="setLanguage('no')" title="Norsk versjon"></img>
+		</div>
+	</header>
+	<footer>
+		<p id="title_instructions">Click on the map where you think a grocery stores was located but has since closed. Fill in the information and then press the "Add a store" button. A new page will open. You can close it and come back to this page if you think of other stores.</p>
+		<div id="button-container">
+			<button class="button" type="button" id="displayOpenStores" onclick="displayOpenStores();">Display open stores</button>
+			<button class="button" type="button" id="displayClosedStores" onclick="displayClosedStores();" enabled="disabled">Display closed stores</button>
+		</div>
+		<div id="legend" class="grid-container">
+		  <div class="column">
+			<div class="row">
+			  <img src="img/S.png">
+			  <span>Supermarked</span>
+			</div>
+			<div class="row">
+			  <img src="img/K.png">
+			  <span>Kiosk</span>
+			</div>
+			<div class="row">
+			  <img src="img/A.png">
+			  <span>Spesialforretning</span>
+			</div>
+		  </div>
+		  <div class="column">
+			<div class="row">
+			  <img src="img/S_bw.png">
+			  <span>Stengt supermarked</span>
+			</div>
+			<div class="row">
+			  <img src="img/K_bw.png">
+			  <span>Stengt kiosk</span>
+			</div>
+			<div class="row">
+			  <img src="img/A_bw.png">
+			  <span>Stengt spesialforretning</span>
+			</div>
+		  </div>	
+		</div>
+	</footer>
+	<div id="map-container">
+		<div id="map"></div>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
