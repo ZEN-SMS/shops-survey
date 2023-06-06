@@ -1,23 +1,3 @@
-// Initialize markers array
-
-langEN = {
-	"title_question" : "Do you remember any grocery stores that closed in Trondheim ?",
-	"title_instructions" : "Click on the map where you think a grocery stores was located but has since closed. Fill in the information and then press the \"Add a store\" button. A new page with a submission confirmation will open but you can close it and feel free to add more stores.",
-	"dispOpen" : "Display open stores",
-	"dispClosed" : "Display closed stores",
-	"hideOpen" : "Hide open stores",
-	"hideClosed" : "Hide closed stores",
-};
-
-langNO = {
-	"title_question" : "Husker du noen dagligvarebutikker som stengte i Trondheim?",
-	"title_instructions" : "Klikk på kartet der du tror en dagligvarebutikk lå, men som siden har stengt. Fyll ut informasjonen og trykk deretter på knappen \"Legg til en butikk\". En ny side åpnes. Du kan lukke den og gjerne legge til flere butikker.",
-	"dispOpen" : "Vis åpne butikker",
-	"dispClosed" : "Vis stengte butikker",
-	"hideOpen" : "Skjuler åpne butikker",
-	"hideClosed" : "Skjuler stengte butikker",
-};
-
 var language = 'no';
 var lang = langNO;
 
@@ -80,93 +60,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19
 }).addTo(map);
 
-
-legendEN = L.control.Legend({
-    position: "topright",
-    column: 2,
-	collapsed : false,
-    legends: [{
-        label: "Supermarket",
-        type: "image",
-        url: "img/S.png",
-    }, {
-        label: "Kiosk",
-        type: "image",
-        url: "img/K.png",
-    }, {
-        label: "Specialised",
-        type: "image",
-        url: "img/A.png",
-    }, {
-        label: "Closed supermarket",
-        type: "image",
-        url: "img/S_bw.png",
-    }, {
-        label: "Closed kiosk",
-        type: "image",
-        url: "img/K_bw.png",
-    }, {
-        label: "Closed specialised",
-        type: "image",
-        url: "img/A_bw.png",
-    },]
-})
-
-legendNO = L.control.Legend({
-    position: "topright",
-    column: 2,
-	collapsed : false,
-    legends: [{
-        label: "Supermarked",
-        type: "image",
-        url: "img/S.png",
-    }, {
-        label: "Kiosk",
-        type: "image",
-        url: "img/K.png",
-    }, {
-        label: "Spesialforretning",
-        type: "image",
-        url: "img/A.png",
-    }, {
-        label: "Stengt supermarked",
-        type: "image",
-        url: "img/S_bw.png",
-    }, {
-        label: "Stengt kiosk",
-        type: "image",
-        url: "img/K_bw.png",
-    }, {
-        label: "Stengt spesialforretning ",
-        type: "image",
-        url: "img/A_bw.png",
-    },]
-})
-
-
-var legend = legendNO;
-
 function displayOpenStores () {
 	openmarkers = [];
-	var geojson = {
-	"type": "FeatureCollection",
-	"name": "Shops",
-	"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-	"features": [
-	{ "type": "Feature", "properties": { "full_id": "n8198899288", "osm_id": "8198899288", "osm_type": "node", "shop": "supermarket", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "https://bunnpris.no/butikker/bunnpris-gourmet-nidarvoll", "brand_wiki": "no:Bunnpris", "brand_wi_1": "Q1774634", "wheelchair": "yes", "operator": "", "level": "", "ref_7eleve": "", "phone": "+47 73966325", "opening_ho": "same", "name": "Bunnpris Nidarvoll", "email": "bpnidarvoll@bunnpris.no", "brand": "Bunnpris", "branch": "", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "", "ref_narves": "", "payment_ma": "", "stroller": "yes", "self_check": "yes", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "Mo-Fr 08:00-23:00, Sa 09:00-22:00", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 22.0 }, "geometry": { "type": "Point", "coordinates": [ 10.404522740089151, 63.401359064290823 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8198899289", "osm_id": "8198899289", "osm_type": "node", "shop": "supermarket", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "https://bunnpris.no/butikker/bunnpris-gourmet-nidarvoll", "brand_wiki": "en:Bunnpris", "brand_wi_1": "Q1774634", "wheelchair": "limited", "operator": "", "level": "", "ref_7eleve": "", "phone": "+47 73966325", "opening_ho": "same", "name": "Bunnpris Nidarvoll SÃ¸ndagsbutikk", "email": "bpnidarvoll@bunnpris.no", "brand": "Bunnpris", "branch": "", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "", "ref_narves": "", "payment_ma": "", "stroller": "limited", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "Su 11:00-22:00", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 23.0 }, "geometry": { "type": "Point", "coordinates": [ 10.404610857448779, 63.401171219936117 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8198899291", "osm_id": "8198899291", "osm_type": "node", "shop": "", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "yes", "operator": "", "level": "", "ref_7eleve": "", "phone": "", "opening_ho": "", "name": "", "email": "", "brand": "", "branch": "", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "main", "ref_narves": "", "payment_ma": "", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "sliding", "access": "customers", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 10.404246400203636, 63.401403161393482 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8198899292", "osm_id": "8198899292", "osm_type": "node", "shop": "", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "limited", "operator": "", "level": "", "ref_7eleve": "", "phone": "", "opening_ho": "", "name": "Bunnpris Nidarvoll SÃ¸ndagsbutikk", "email": "", "brand": "", "branch": "", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "shop", "ref_narves": "", "payment_ma": "", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "customers", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 23.0 }, "geometry": { "type": "Point", "coordinates": [ 10.404526431079859, 63.401152032467422 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8358498729", "osm_id": "8358498729", "osm_type": "node", "shop": "supermarket", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "", "operator": "", "level": "", "ref_7eleve": "", "phone": "+47 72831000", "opening_ho": "", "name": "Rema 1000 RanheimsfjÃ¦ra", "email": "ranheimsfjera@rema.no", "brand": "Rema 1000", "branch": "RanheimsfjÃ¦ra", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "", "ref_narves": "", "payment_ma": "", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "2092442", "opening__2": "Mo-Sa 07:00-23:00, Su 10:00-22:00", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 31.0 }, "geometry": { "type": "Point", "coordinates": [ 10.527278271690813, 63.428838141688097 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8359707109", "osm_id": "8359707109", "osm_type": "node", "shop": "supermarket", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "https://coop.no/butikker/extra/leuthenhaven-4246/", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "", "operator": "", "level": "", "ref_7eleve": "", "phone": "+47 73512457", "opening_ho": "", "name": "Extra Leuthenhaven", "email": "leuthenhaven.extra@coop.no", "brand": "Extra", "branch": "Leuthenhaven", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "", "ref_narves": "", "payment_ma": "", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "4246", "service_po": "yes", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "Mo-Fr 07:00-23:00, Sa 08:00-21:00, Su 10:00-22:00", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 231.0 }, "geometry": { "type": "Point", "coordinates": [ 10.390642885462947, 63.430183651182347 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8933802894", "osm_id": "8933802894", "osm_type": "node", "shop": "supermarket", "payment_de": "", "payment_cr": "", "payment_co": "yes", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "https://coop.no/extra/", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "", "operator": "", "level": "", "ref_7eleve": "", "phone": "", "opening_ho": "same", "name": "Extra Elgeseter", "email": "", "brand": "", "branch": "", "fax": "", "payment_vi": "yes", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "", "ref_narves": "", "payment_ma": "yes", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 106.0 }, "geometry": { "type": "Point", "coordinates": [ 10.39649544656548, 63.419118837168021 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8936872084", "osm_id": "8936872084", "osm_type": "node", "shop": "supermarket", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "", "operator": "", "level": "", "ref_7eleve": "", "phone": "", "opening_ho": "", "name": "Holdbart", "email": "", "brand": "", "branch": "", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "", "ref_narves": "", "payment_ma": "", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 61.0 }, "geometry": { "type": "Point", "coordinates": [ 10.376902192575049, 63.358208997943031 ] } },
-	{ "type": "Feature", "properties": { "full_id": "n8939919263", "osm_id": "8939919263", "osm_type": "node", "shop": "", "payment_de": "", "payment_cr": "", "payment_co": "", "payment_ca": "", "organic": "", "addr_stree": "", "addr_postc": "", "addr_house": "", "addr_city": "", "check_date": "", "website": "", "brand_wiki": "", "brand_wi_1": "", "wheelchair": "", "operator": "", "level": "0", "ref_7eleve": "", "phone": "", "opening_ho": "", "name": "", "email": "", "brand": "", "branch": "", "fax": "", "payment_vi": "", "payment__1": "", "facebook": "", "cuisine": "", "entrance": "yes", "ref_narves": "", "payment_ma": "", "stroller": "", "self_check": "", "smoking": "", "service_de": "", "toilets_wh": "", "covered": "", "amenity": "", "opening__1": "", "alt_name": "", "door": "", "access": "", "service_ph": "", "service_ca": "", "addr_count": "", "service_ch": "", "ref_coop": "", "service_po": "", "service_ti": "", "service_ri": "", "ref_norges": "", "was_ref_bu": "", "service__1": "", "ref_bunnpr": "", "ref_rema": "", "opening__2": "", "internet_a": "", "layer": "supermarkets", "path": "C:\\Users\\petescho\\GIS\\August2021\\OSM\\Food_stores\\supermarkets.shp|layername=supermarkets", "ARw400lm": 63.0 }, "geometry": { "type": "Point", "coordinates": [ 10.454965805957066, 63.436415048223822 ] } }
-	]
-	};
-	// fetch('Shops.geojson')
-	  // .then(response => response.json())
-	  // .then(geojson => {
+	 fetch('Shops.geojson')
+	  .then(response => response.json())
+	  .then(geojson => {
 		var geojsonLayer = L.geoJSON(geojson, {
 		  pointToLayer: function (feature, latlng) {
 			// Customize the icon based on the property value
@@ -194,7 +92,7 @@ function displayOpenStores () {
 		  }
 		});
 		geojsonLayer.addTo(map);
-	  // });
+	});
 	document.getElementById("displayOpenStores").innerText = lang.hideOpen;
 	document.getElementById("displayOpenStores").onclick = removeOpenStores;
 }
@@ -205,25 +103,28 @@ function displayOpenStores () {
 function setLanguage(lg) {
 	removeOpenStores();
 	removeClosedStores();
-	map.removeControl(legend);
 	
 	if (lg == 'en') {
 		lang = langEN;
 		language = 'en';
-		legend = legendEN;
 	}
 	if (lg == 'no') {
 		lang = langNO;
 		language = 'no';
-		legend = legendNO;
 	}
-	
-	legend.addTo(map);
 	
 	$("#title_question").text(lang.title_question);
 	$("#title_instructions").text(lang.title_instructions);
 	$("#displayOpenStores").text(lang.dispOpen);
 	$("#displayClosedStores").text(lang.dispClosed);
+	var rows = document.getElementsByClassName("row");
+	rows[0].getElementsByTagName("span")[0].textContent = lang.supermarket;
+	rows[1].getElementsByTagName("span")[0].textContent = lang.kiosk;
+	rows[2].getElementsByTagName("span")[0].textContent = lang.specialised;
+	rows[3].getElementsByTagName("span")[0].textContent = lang.closed_supermarket;
+	rows[4].getElementsByTagName("span")[0].textContent = lang.closed_kiosk;
+	rows[5].getElementsByTagName("span")[0].textContent = lang.closed_specialised;
+}
 }
 
 // Download the Google Sheet with the surveys responses
@@ -238,8 +139,6 @@ function DLGoogleSheet() {
 function showInfo(results) {
 	data = results.data
 }
-
-data = [{Horodateur: "03/05/2023 13:13:34", "Latitude (do not change)": "63.42965161893003", "Longitude (do not change)": "10.392208099365236", "Closing date": "1789", "Store type": "specialised: patate" },{Horodateur: "03/05/2023 13:13:34", "Latitude (do not change)": "63.43965161893003", "Longitude (do not change)": "10.392208099365236", "Closing date": "1789", "Store type": "supermarket" }];
 
 function displayClosedStores () {
 	closedmarkers = [];
@@ -312,7 +211,6 @@ function onMapClick(e) {
 	}
 	//Add marker visually on the map and open a popup
 	marker = L.marker(e.latlng).addTo(map).bindPopup(popup);
-	map.removeControl(legend);
 
     setTimeout(function() {
 		marker.openPopup();
@@ -320,7 +218,6 @@ function onMapClick(e) {
 	
 	// Remove the marker when the popup is closed
 	marker.on('popupclose', function() {
-		legend.addTo(map);
 		map.removeLayer(marker);
 		setTimeout(function() {
 			for (m of markers) {	
@@ -359,7 +256,6 @@ function UpdateSpecialised(disabled) {
 	};
 };
 
-//DLGoogleSheet();
-
+DLGoogleSheet();
 setLanguage("no");
 map.on('click', onMapClick);
