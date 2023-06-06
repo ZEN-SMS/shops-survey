@@ -125,7 +125,6 @@ function setLanguage(lg) {
 	rows[4].getElementsByTagName("span")[0].textContent = lang.closed_kiosk;
 	rows[5].getElementsByTagName("span")[0].textContent = lang.closed_specialised;
 }
-}
 
 // Download the Google Sheet with the surveys responses
 function DLGoogleSheet() {
