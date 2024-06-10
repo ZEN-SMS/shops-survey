@@ -203,6 +203,10 @@ function filterShops() {
     var kioskChecked = document.getElementById("kioskCheckbox").checked;
     var specializedChecked = document.getElementById("specializedCheckbox").checked;
 
+    console.log("Supermarket Checked:", supermarketChecked);
+    console.log("Kiosk Checked:", kioskChecked);
+    console.log("Specialized Checked:", specializedChecked);
+
     // Filter open markers
     var filteredOpenMarkers = openmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
@@ -211,6 +215,8 @@ function filterShops() {
             (shopType === "specialized" && specializedChecked);
     });
 
+    console.log("Filtered Open Markers:", filteredOpenMarkers.length);
+
     // Filter closed markers
     var filteredClosedMarkers = closedmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
@@ -218,6 +224,8 @@ function filterShops() {
             (shopType === "kiosk" && kioskChecked) ||
             (shopType === "specialized" && specializedChecked);
     });
+
+    console.log("Filtered Closed Markers:", filteredClosedMarkers.length);
 
     // Remove all markers from the map
     map.eachLayer(function(layer) {
@@ -235,6 +243,7 @@ function filterShops() {
         marker.addTo(map);
     });
 }
+
 
 // Add new markers to the map and open google form
 function onMapClick(e) {
