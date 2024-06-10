@@ -220,8 +220,11 @@ function filterShops() {
     });
 
     // Remove all markers from the map
-    removeMarkers(openmarkers);
-    removeMarkers(closedmarkers);
+    map.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+            map.removeLayer(layer);
+        }
+    });
 
     // Add filtered markers to the map
     filteredOpenMarkers.forEach(function(marker) {
@@ -232,7 +235,6 @@ function filterShops() {
         marker.addTo(map);
     });
 }
-
 
 // Add new markers to the map and open google form
 function onMapClick(e) {
