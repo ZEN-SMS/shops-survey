@@ -210,6 +210,7 @@ function filterShops() {
     // Filter open markers
     var filteredOpenMarkers = openmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
+        console.log("Marker Shop Type:", shopType); // Log shopType of each marker
         if (shopType === "supermarket") {
             return supermarketChecked;
         } else if (shopType === "kiosk") {
@@ -222,6 +223,7 @@ function filterShops() {
     // Filter closed markers
     var filteredClosedMarkers = closedmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
+        console.log("Marker Shop Type:", shopType); // Log shopType of each marker
         if (shopType === "supermarket") {
             return supermarketChecked;
         } else if (shopType === "kiosk") {
