@@ -199,25 +199,35 @@ function removeClosedStores() {
 
 // Define a function to filter shops by type
 function filterShops() {
-	console.log("Checkbox changed"); // Add this line to check if filterShops() is called
-    	console.log(markers); // Add this line to check if markers array is populated correctly
+    var supermarketChecked = document.getElementById("supermarketCheckbox").checked;
+    var kioskChecked = document.getElementById("kioskCheckbox").checked;
+    var specializedChecked = document.getElementById("specializedCheckbox").checked;
 
-    	var supermarketChecked = document.getElementById("supermarketCheckbox").checked;
-    	var kioskChecked = document.getElementById("kioskCheckbox").checked;
-    	var specializedChecked = document.getElementById("specializedCheckbox").checked;
+    // Iterate over open markers
+    openmarkers.forEach(function(marker) {
+        var shopType = marker.options.icon.options.shopType;
+        if ((shopType === "supermarket" && supermarketChecked) ||
+            (shopType === "kiosk" && kioskChecked) ||
+            (shopType === "specialized" && specializedChecked)) {
+            marker.addTo(map); // Show marker
+        } else {
+            map.removeLayer(marker); // Hide marker
+        }
+    });
 
-    	// Iterate through all markers and show/hide them based on the selected checkboxes
-    	markers.forEach(function(marker) {
-        	var shopType = marker.options.icon.options.shopType;
-        	if ((shopType === "supermarket" && supermarketChecked) ||
-            	(shopType === "kiosk" && kioskChecked) ||
-            	(shopType === "specialized" && specializedChecked)) {
-            	marker.addTo(map);
-        	} else {
-            	map.removeLayer(marker);
-        	}
-    	});
-	}
+    // Iterate over closed markers
+    closedmarkers.forEach(function(marker) {
+        var shopType = marker.options.icon.options.shopType;
+        if ((shopType === "supermarket" && supermarketChecked) ||
+            (shopType === "kiosk" && kioskChecked) ||
+            (shopType === "specialized" && specializedChecked)) {
+            marker.addTo(map); // Show marker
+        } else {
+            map.removeLayer(marker); // Hide marker
+        }
+    });
+}
+
 
 // Add new markers to the map and open google form
 function onMapClick(e) {
