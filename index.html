@@ -21,6 +21,14 @@
 	</header>
 	<footer>
 		<p id="title_instructions">Click on the map where you think a grocery stores was located but has since closed. Fill in the information and then press the "Add a store" button. A new page will open. You can close it and come back to this page if you think of other stores.</p>
+		<div id="filter-container">
+        		<input type="checkbox" id="supermarketCheckbox" onchange="filterShops();" checked>
+        		<label for="supermarketCheckbox">Supermarket</label>
+        		<input type="checkbox" id="kioskCheckbox" onchange="filterShops();" checked>
+        		<label for="kioskCheckbox">Kiosk</label>
+        		<input type="checkbox" id="specializedCheckbox" onchange="filterShops();" checked>
+       			<label for="specializedCheckbox">Specialized</label>
+    		</div>
 		<div id="button-container">
 			<button class="button" type="button" id="displayOpenStores" onclick="displayOpenStores();">Display open stores</button>
 			<button class="button" type="button" id="displayClosedStores" onclick="displayClosedStores();" enabled="disabled">Display closed stores</button>
