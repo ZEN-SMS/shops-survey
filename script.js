@@ -203,28 +203,33 @@ function filterShops() {
     var kioskChecked = document.getElementById("kioskCheckbox").checked;
     var specializedChecked = document.getElementById("specializedCheckbox").checked;
 
-    // Iterate over open markers
-    openmarkers.forEach(function(marker) {
+    // Filter open markers
+    var filteredOpenMarkers = openmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
-        if ((shopType === "supermarket" && supermarketChecked) ||
+        return (shopType === "supermarket" && supermarketChecked) ||
             (shopType === "kiosk" && kioskChecked) ||
-            (shopType === "specialized" && specializedChecked)) {
-            marker.addTo(map); // Show marker
-        } else {
-            map.removeLayer(marker); // Hide marker
-        }
+            (shopType === "specialized" && specializedChecked);
     });
 
-    // Iterate over closed markers
-    closedmarkers.forEach(function(marker) {
+    // Filter closed markers
+    var filteredClosedMarkers = closedmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
-        if ((shopType === "supermarket" && supermarketChecked) ||
+        return (shopType === "supermarket" && supermarketChecked) ||
             (shopType === "kiosk" && kioskChecked) ||
-            (shopType === "specialized" && specializedChecked)) {
-            marker.addTo(map); // Show marker
-        } else {
-            map.removeLayer(marker); // Hide marker
-        }
+            (shopType === "specialized" && specializedChecked);
+    });
+
+    // Remove all markers from the map
+    removeMarkers(openmarkers);
+    removeMarkers(closedmarkers);
+
+    // Add filtered markers to the map
+    filteredOpenMarkers.forEach(function(marker) {
+        marker.addTo(map);
+    });
+
+    filteredClosedMarkers.forEach(function(marker) {
+        marker.addTo(map);
     });
 }
 
