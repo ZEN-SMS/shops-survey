@@ -197,6 +197,24 @@ function removeClosedStores() {
 	document.getElementById("displayClosedStores").onclick = displayClosedStores
 }
 
+// Define a function to filter shops by type
+function filterShops() {
+    var supermarketChecked = document.getElementById("supermarketCheckbox").checked;
+    var kioskChecked = document.getElementById("kioskCheckbox").checked;
+    var specializedChecked = document.getElementById("specializedCheckbox").checked;
+
+    // Iterate through all markers and show/hide them based on the selected checkboxes
+    markers.forEach(function(marker) {
+        var shopType = marker.options.icon.options.shopType;
+        if ((shopType === "supermarket" && supermarketChecked) ||
+            (shopType === "kiosk" && kioskChecked) ||
+            (shopType === "specialized" && specializedChecked)) {
+            marker.addTo(map);
+        } else {
+            map.removeLayer(marker);
+        }
+    });
+}
 // Add new markers to the map and open google form
 function onMapClick(e) {
 	lat = e.latlng.lat;
