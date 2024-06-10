@@ -210,19 +210,25 @@ function filterShops() {
     // Filter open markers
     var filteredOpenMarkers = openmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
-        return (shopType === "supermarket" && supermarketChecked) ||
-            (shopType === "kiosk" && kioskChecked) ||
-            (shopType === "specialized" && specializedChecked);
+        if (shopType === "supermarket") {
+            return supermarketChecked;
+        } else if (shopType === "kiosk") {
+            return kioskChecked;
+        } else if (shopType === "specialized") {
+            return specializedChecked;
+        }
     });
-
-    console.log("Filtered Open Markers:", filteredOpenMarkers.length);
 
     // Filter closed markers
     var filteredClosedMarkers = closedmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
-        return (shopType === "supermarket" && supermarketChecked) ||
-            (shopType === "kiosk" && kioskChecked) ||
-            (shopType === "specialized" && specializedChecked);
+        if (shopType === "supermarket") {
+            return supermarketChecked;
+        } else if (shopType === "kiosk") {
+            return kioskChecked;
+        } else if (shopType === "specialized") {
+            return specializedChecked;
+        }
     });
 
     console.log("Filtered Closed Markers:", filteredClosedMarkers.length);
@@ -243,7 +249,6 @@ function filterShops() {
         marker.addTo(map);
     });
 }
-
 
 // Add new markers to the map and open google form
 function onMapClick(e) {
