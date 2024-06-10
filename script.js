@@ -223,7 +223,7 @@ function filterShops() {
     // Filter open markers
     var filteredOpenMarkers = openmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
-        console.log("Marker Shop Type:", shopType); // Log shopType of each marker
+        console.log("Open Marker Shop Type:", shopType); // Log shopType of each marker
         if (shopType === "supermarket") {
             return supermarketChecked;
         } else if (shopType === "kiosk") {
@@ -236,7 +236,7 @@ function filterShops() {
     // Filter closed markers
     var filteredClosedMarkers = closedmarkers.filter(function(marker) {
         var shopType = marker.options.icon.options.shopType;
-        console.log("Marker Shop Type:", shopType); // Log shopType of each marker
+        console.log("Closed Marker Shop Type:", shopType); // Log shopType of each marker
         if (shopType === "supermarket") {
             return supermarketChecked;
         } else if (shopType === "kiosk") {
@@ -246,6 +246,7 @@ function filterShops() {
         }
     });
 
+    console.log("Filtered Open Markers:", filteredOpenMarkers.length);
     console.log("Filtered Closed Markers:", filteredClosedMarkers.length);
 
     // Remove all markers from the map
@@ -264,6 +265,15 @@ function filterShops() {
         marker.addTo(map);
     });
 }
+
+// Add event listeners to checkboxes
+document.getElementById("supermarketCheckbox").addEventListener("change", filterShops);
+document.getElementById("kioskCheckbox").addEventListener("change", filterShops);
+document.getElementById("specializedCheckbox").addEventListener("change", filterShops);
+
+// Initial call to display markers based on default checkbox states
+filterShops();
+
 
 // Add new markers to the map and open google form
 function onMapClick(e) {
