@@ -199,6 +199,8 @@ function removeClosedStores() {
 
 // Define a function to filter shops by type
 function filterShops() {
+    console.log(markers); // Add this line to check if markers array is populated correctly
+
     var supermarketChecked = document.getElementById("supermarketCheckbox").checked;
     var kioskChecked = document.getElementById("kioskCheckbox").checked;
     var specializedChecked = document.getElementById("specializedCheckbox").checked;
@@ -215,6 +217,7 @@ function filterShops() {
         }
     });
 }
+
 // Add new markers to the map and open google form
 function onMapClick(e) {
 	lat = e.latlng.lat;
