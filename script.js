@@ -66,33 +66,25 @@ function displayOpenStores() {
         .then(response => response.json())
         .then(geojson => {
             var geojsonLayer = L.geoJSON(geojson, {
-                pointToLayer: function (feature, latlng) {
-                    var icon, shopType;
+                pointToLayer: function(feature, latlng) {
+                    var icon;
                     if (feature.properties.shop == "supermarket") {
                         icon = gsIcon;
-                        shopType = "supermarket";
                     } else if (feature.properties.shop == "kiosk") {
                         icon = kioskIcon;
-                        shopType = "kiosk";
                     } else {
                         icon = speIcon;
-                        shopType = "specialized";
                     }
-                    console.log("Open Store Shop Type:", shopType); // Log shopType
-
-                    // Ensure icon has shopType property
-                    icon.options.shopType = shopType;
-
                     var name = feature.properties.name;
 
-                    // Create a marker with the custom icon
                     const marker = L.marker(latlng, { icon: icon });
                     marker.bindPopup("<b>" + name + "</b>");
+                    marker.options.icon.options.shopType = feature.properties.shop;
                     openmarkers.push(marker);
-                    marker.on('mouseover', function (e) {
+                    marker.on('mouseover', function(e) {
                         this.openPopup();
                     });
-                    marker.on('mouseout', function (e) {
+                    marker.on('mouseout', function(e) {
                         this.closePopup();
                     });
                     marker.addTo(map);
@@ -100,13 +92,11 @@ function displayOpenStores() {
                 }
             });
             geojsonLayer.addTo(map);
+            filterShops(); // Apply filters after loading markers
         });
     document.getElementById("displayOpenStores").innerText = lang.hideOpen;
     document.getElementById("displayOpenStores").onclick = removeOpenStores;
 }
-
-
-
 
 // Change the language of the page
 function setLanguage(lg) {
@@ -150,7 +140,6 @@ function showInfo(results) {
 
 function displayClosedStores() {
     closedmarkers = [];
-    // Extract data from object
     for (d of data) {
         var lat = parseFloat(d["Latitude (do not change)"]);
         var lng = parseFloat(d["Longitude (do not change)"]);
@@ -166,12 +155,8 @@ function displayClosedStores() {
         } else if (storeType.startsWith("specialised")) {
             icon = CspeIcon;
         }
-
-        // Ensure icon has shopType property
-        icon.options.shopType = storeType.startsWith("specialised") ? "specialized" : storeType;
-        console.log("Closed Store Shop Type:", icon.options.shopType); // Log shopType
-
         const marker = L.marker([lat, lng], { icon: icon });
+        marker.options.icon.options.shopType = storeType;
         closedmarkers.push(marker);
 
         if (storeType.startsWith("specialised")) {
@@ -179,16 +164,17 @@ function displayClosedStores() {
         }
         marker.bindPopup("<b>Closing Date:</b> " + closingDate + "<br><b>Store Type:</b> " + storeType + "<br><b>Description:</b> " + description);
 
-        marker.on('mouseover', function (e) {
+        marker.on('mouseover', function(e) {
             this.openPopup();
         });
-        marker.on('mouseout', function (e) {
+        marker.on('mouseout', function(e) {
             this.closePopup();
         });
         marker.addTo(map);
     }
     document.getElementById("displayClosedStores").innerText = lang.hideClosed;
     document.getElementById("displayClosedStores").onclick = removeClosedStores;
+    filterShops(); // Apply filters after loading markers
 }
 
 
