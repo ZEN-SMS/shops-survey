@@ -306,3 +306,11 @@ function UpdateSpecialised(disabled) {
 DLGoogleSheet();
 setLanguage("no");
 map.on('click', onMapClick);
+
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Add event listeners to checkboxes
+    document.getElementById("supermarketCheckbox").addEventListener("change", filterShops);
+    document.getElementById("kioskCheckbox").addEventListener("change", filterShops);
+    document.getElementById("specializedCheckbox").addEventListener("change", filterShops);
+});
