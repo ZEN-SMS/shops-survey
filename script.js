@@ -62,7 +62,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 function displayOpenStores() {
     openmarkers = [];
-    fetch('Shops.geojson')
+    fetch('shops_trondheim.geojson')
         .then(response => response.json())
         .then(geojson => {
             var geojsonLayer = L.geoJSON(geojson, {
