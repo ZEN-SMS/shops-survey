@@ -1,0 +1,3004 @@
+{
+  "type": "FeatureCollection",
+  "name": "Shops",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n148322126",
+        "osm_id": 148322126,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.438926,
+          63.409949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n155590469",
+        "osm_id": 155590469,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.399218,
+          63.422227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Meny",
+        "full_id": "n168842710",
+        "osm_id": 168842710,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4439421,
+          63.4097165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n168842713",
+        "osm_id": 168842713,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.431544,
+          63.412733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Mega",
+        "full_id": "n175870526",
+        "osm_id": 175870526,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.42728,
+          63.402878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n193629076",
+        "osm_id": 193629076,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.330293,
+          63.387395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n210259349",
+        "osm_id": 210259349,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.526633,
+          63.421527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n211168452",
+        "osm_id": 211168452,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.534483,
+          63.421105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n220636585",
+        "osm_id": 220636585,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4414846,
+          63.4103851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "n226059617",
+        "osm_id": 226059617,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4469755,
+          63.4216828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Mega",
+        "full_id": "n226059642",
+        "osm_id": 226059642,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4417,
+          63.4245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n226059650",
+        "osm_id": 226059650,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4411489,
+          63.4244419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n226059674",
+        "osm_id": 226059674,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.450936,
+          63.430991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n245395441",
+        "osm_id": 245395441,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.352454,
+          63.418045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n245395443",
+        "osm_id": 245395443,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3519329,
+          63.4178709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n246519042",
+        "osm_id": 246519042,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.352908,
+          63.387628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n246705060",
+        "osm_id": 246705060,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.444628,
+          63.409337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n246875581",
+        "osm_id": 246875581,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4451606,
+          63.4477148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n246875598",
+        "osm_id": 246875598,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4444141,
+          63.4471519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n255113226",
+        "osm_id": 255113226,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.424281,
+          63.436523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n255113232",
+        "osm_id": 255113232,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.44723,
+          63.433113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n260303215",
+        "osm_id": 260303215,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.42075,
+          63.391275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n276822137",
+        "osm_id": 276822137,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3950268,
+          63.3688438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n291073606",
+        "osm_id": 291073606,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.389449,
+          63.361877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Marked",
+        "full_id": "n305721516",
+        "osm_id": 305721516,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.149234,
+          63.422619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n305721639",
+        "osm_id": 305721639,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.164235,
+          63.355669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n379844101",
+        "osm_id": 379844101,
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4152445,
+          63.4338579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n382917154",
+        "osm_id": 382917154,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.393687,
+          63.43211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n386579884",
+        "osm_id": 386579884,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3952086,
+          63.4310094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n386579898",
+        "osm_id": 386579898,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.397879,
+          63.431781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n387530378",
+        "osm_id": 387530378,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.41731,
+          63.432379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n436632347",
+        "osm_id": 436632347,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.346593,
+          63.37375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n530890482",
+        "osm_id": 530890482,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.392311,
+          63.431803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n530915939",
+        "osm_id": 530915939,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.399932,
+          63.433197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n532019151",
+        "osm_id": 532019151,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3976133,
+          63.4079854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n628626611",
+        "osm_id": 628626611,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.406636,
+          63.431333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n628626613",
+        "osm_id": 628626613,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.407819,
+          63.43181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Meny",
+        "full_id": "n840542886",
+        "osm_id": 840542886,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4114171,
+          63.4351749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n979961110",
+        "osm_id": 979961110,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.430887,
+          63.419012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n1000568759",
+        "osm_id": 1000568759,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.360204,
+          63.431054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n1017759979",
+        "osm_id": 1017759979,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.440244,
+          63.44428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n1200404358",
+        "osm_id": 1200404358,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.416296,
+          63.436493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n1296779392",
+        "osm_id": 1296779392,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3865504,
+          63.4199952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Spar",
+        "full_id": "n1373859711",
+        "osm_id": 1373859711,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.355301,
+          63.353503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n1373859712",
+        "osm_id": 1373859712,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.356878,
+          63.353412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "seafood",
+        "brand": null,
+        "full_id": "n1373921224",
+        "osm_id": 1373921224,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.355706,
+          63.3519275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n1373921226",
+        "osm_id": 1373921226,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.354107,
+          63.351663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n1373921228",
+        "osm_id": 1373921228,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.356385,
+          63.351633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n1381677677",
+        "osm_id": 1381677677,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.379841,
+          63.353923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n1427194518",
+        "osm_id": 1427194518,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.389784,
+          63.423045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n1433533635",
+        "osm_id": 1433533635,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.348765,
+          63.366527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n1589691582",
+        "osm_id": 1589691582,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.436077,
+          63.399023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n1666929775",
+        "osm_id": 1666929775,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.395361,
+          63.419396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n1667274375",
+        "osm_id": 1667274375,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4075668,
+          63.4320217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n1768856456",
+        "osm_id": 1768856456,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4639638,
+          63.4405382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n1834028927",
+        "osm_id": 1834028927,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.35586,
+          63.351573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n2068607072",
+        "osm_id": 2068607072,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3797844,
+          63.3637906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n2112026737",
+        "osm_id": 2112026737,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.494073,
+          63.421502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n2275990844",
+        "osm_id": 2275990844,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.419996,
+          63.430416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n2498375798",
+        "osm_id": 2498375798,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503594,
+          63.434044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n2671914147",
+        "osm_id": 2671914147,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.36845,
+          63.429929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n2698855834",
+        "osm_id": 2698855834,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.375511,
+          63.359563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n2905986801",
+        "osm_id": 2905986801,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.399031,
+          63.415413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n2968030050",
+        "osm_id": 2968030050,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.415051,
+          63.434226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n2968030051",
+        "osm_id": 2968030051,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.404193,
+          63.440352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n3004633896",
+        "osm_id": 3004633896,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.418101,
+          63.409712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "fishing",
+        "brand": null,
+        "full_id": "n3052351984",
+        "osm_id": 3052351984,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3983058,
+          63.4347981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n3097492388",
+        "osm_id": 3097492388,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.458537,
+          63.441992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n3124111098",
+        "osm_id": 3124111098,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.397661,
+          63.4331408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n3124117861",
+        "osm_id": 3124117861,
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.398125,
+          63.4328029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "n3250282102",
+        "osm_id": 3250282102,
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.391532,
+          63.4321192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n3268570534",
+        "osm_id": 3268570534,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.391723,
+          63.430911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n3466365845",
+        "osm_id": 3466365845,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3960716,
+          63.4325448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n3466365855",
+        "osm_id": 3466365855,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3965908,
+          63.4325803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n3520798467",
+        "osm_id": 3520798467,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3968653,
+          63.4336758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n3520798472",
+        "osm_id": 3520798472,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.396222,
+          63.4333797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n3767298490",
+        "osm_id": 3767298490,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.399238,
+          63.436178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n3961731167",
+        "osm_id": 3961731167,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.357079,
+          63.431548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n3988992824",
+        "osm_id": 3988992824,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.374041,
+          63.356558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "N\u00e6rbutikken",
+        "full_id": "n4285686489",
+        "osm_id": 4285686489,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.408782,
+          63.43031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n4324998066",
+        "osm_id": 4324998066,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.399927,
+          63.432475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n4332140968",
+        "osm_id": 4332140968,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.430182,
+          63.391529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n4343164839",
+        "osm_id": 4343164839,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4272259,
+          63.4030775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n4343164840",
+        "osm_id": 4343164840,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.426982,
+          63.4029916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "n4380207756",
+        "osm_id": 4380207756,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3929811,
+          63.4321118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n4412162790",
+        "osm_id": 4412162790,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3301599,
+          63.3872489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Joker",
+        "full_id": "n4418592511",
+        "osm_id": 4418592511,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.37316,
+          63.430059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n4418656448",
+        "osm_id": 4418656448,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3655115,
+          63.4292087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n4510620677",
+        "osm_id": 4510620677,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.413734,
+          63.433961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Meny",
+        "full_id": "n4518820346",
+        "osm_id": 4518820346,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3540589,
+          63.4169634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n4572246545",
+        "osm_id": 4572246545,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.38753,
+          63.430599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n4572286867",
+        "osm_id": 4572286867,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3941595,
+          63.4330148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n4630571197",
+        "osm_id": 4630571197,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3614045,
+          63.409079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n4630582339",
+        "osm_id": 4630582339,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.351578,
+          63.413789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n4697327343",
+        "osm_id": 4697327343,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4465913,
+          63.4436135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Joker",
+        "full_id": "n4951143066",
+        "osm_id": 4951143066,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.417338,
+          63.425824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n5026137372",
+        "osm_id": 5026137372,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.482677,
+          63.299314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n5063799426",
+        "osm_id": 5063799426,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3519326,
+          63.4180913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n5119347449",
+        "osm_id": 5119347449,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3435796,
+          63.3977115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n5455086990",
+        "osm_id": 5455086990,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.336876,
+          63.394895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n5685390271",
+        "osm_id": 5685390271,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4132142,
+          63.4346319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n5685390283",
+        "osm_id": 5685390283,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4120742,
+          63.4351616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n5715076049",
+        "osm_id": 5715076049,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.359199,
+          63.349972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n5851244916",
+        "osm_id": 5851244916,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.307358,
+          63.325295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Obs",
+        "full_id": "n6028551221",
+        "osm_id": 6028551221,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.376534,
+          63.36202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n6028551223",
+        "osm_id": 6028551223,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3741,
+          63.35406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n6028551228",
+        "osm_id": 6028551228,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3391,
+          63.3507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n6028551229",
+        "osm_id": 6028551229,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.335404,
+          63.345936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6028552683",
+        "osm_id": 6028552683,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.377665,
+          63.382429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6028555279",
+        "osm_id": 6028555279,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.537436,
+          63.412459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6028555280",
+        "osm_id": 6028555280,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.460781,
+          63.416751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6028555282",
+        "osm_id": 6028555282,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.464936,
+          63.411637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6028555283",
+        "osm_id": 6028555283,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.361963,
+          63.335478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6028555437",
+        "osm_id": 6028555437,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.494186,
+          63.427004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6028555439",
+        "osm_id": 6028555439,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.344218,
+          63.372529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6028555444",
+        "osm_id": 6028555444,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.358605,
+          63.407654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n6028555859",
+        "osm_id": 6028555859,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4962134,
+          63.4312945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6028555862",
+        "osm_id": 6028555862,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.494545,
+          63.420496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6028555869",
+        "osm_id": 6028555869,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.345141,
+          63.366518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Obs",
+        "full_id": "n6028555997",
+        "osm_id": 6028555997,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4474449,
+          63.4431214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n6028556000",
+        "osm_id": 6028556000,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.352654,
+          63.416241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Prix",
+        "full_id": "n6028556001",
+        "osm_id": 6028556001,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.372,
+          63.3995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n6055578372",
+        "osm_id": 6055578372,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.464204,
+          63.418444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n6055599410",
+        "osm_id": 6055599410,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.44293,
+          63.424203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6057929423",
+        "osm_id": 6057929423,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.369203,
+          63.394369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6057930929",
+        "osm_id": 6057930929,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.408287,
+          63.387517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Meny",
+        "full_id": "n6058769627",
+        "osm_id": 6058769627,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3748768,
+          63.3579449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6096938690",
+        "osm_id": 6096938690,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.364501,
+          63.378297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n6096938696",
+        "osm_id": 6096938696,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.484135,
+          63.300275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n6122926988",
+        "osm_id": 6122926988,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3742223,
+          63.3581929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n6122926990",
+        "osm_id": 6122926990,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.378942,
+          63.361912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "n6122926996",
+        "osm_id": 6122926996,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.391784,
+          63.43039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n6135905557",
+        "osm_id": 6135905557,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.400472,
+          63.405644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6222869309",
+        "osm_id": 6222869309,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.45643,
+          63.437954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Spar",
+        "full_id": "n6223061729",
+        "osm_id": 6223061729,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3358239,
+          63.4040658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n6449043557",
+        "osm_id": 6449043557,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.360485,
+          63.334264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n6532235728",
+        "osm_id": 6532235728,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4004408,
+          63.4341661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Joker",
+        "full_id": "n6952558036",
+        "osm_id": 6952558036,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.393696,
+          63.422393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n6989070166",
+        "osm_id": 6989070166,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3946786,
+          63.4320741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n7617963245",
+        "osm_id": 7617963245,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3837427,
+          63.4510564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n7643844514",
+        "osm_id": 7643844514,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4337775,
+          63.4422944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n7936404773",
+        "osm_id": 7936404773,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.435823,
+          63.44197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n8198899288",
+        "osm_id": 8198899288,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4045228,
+          63.4013591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n8198899289",
+        "osm_id": 8198899289,
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4046109,
+          63.4011712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n8198899290",
+        "osm_id": 8198899290,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4044912,
+          63.4012595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n8358498729",
+        "osm_id": 8358498729,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5272783,
+          63.4288382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n8359707109",
+        "osm_id": 8359707109,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3909541,
+          63.4301624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": null,
+        "full_id": "n8487298574",
+        "osm_id": 8487298574,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4200698,
+          63.4358908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n8933802894",
+        "osm_id": 8933802894,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3964954,
+          63.4191189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n8936872075",
+        "osm_id": 8936872075,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.353932,
+          63.3515821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "n8936872084",
+        "osm_id": 8936872084,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3769022,
+          63.358209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n9170276199",
+        "osm_id": 9170276199,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4138807,
+          63.4133284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n9533390514",
+        "osm_id": 9533390514,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4465219,
+          63.4430563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "n9538628981",
+        "osm_id": 9538628981,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3982836,
+          63.4344369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "n9608083241",
+        "osm_id": 9608083241,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4315626,
+          63.4369352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "n9608107581",
+        "osm_id": 9608107581,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3991604,
+          63.4056535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "n9631456059",
+        "osm_id": 9631456059,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.432704,
+          63.410815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n9767133157",
+        "osm_id": 9767133157,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5272439,
+          63.4290063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n10650480128",
+        "osm_id": 10650480128,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3585812,
+          63.4063034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Kiwi",
+        "full_id": "n10685175725",
+        "osm_id": 10685175725,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5346229,
+          63.424395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n11062800257",
+        "osm_id": 11062800257,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4414392,
+          63.4246386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "n11279586558",
+        "osm_id": 11279586558,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3548452,
+          63.3505834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "n11795306267",
+        "osm_id": 11795306267,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4263858,
+          63.4178023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "w22915083",
+        "osm_id": 22915083,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4309545,
+          63.418924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "w32389280",
+        "osm_id": 32389280,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4858825,
+          63.4377696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Bunnpris",
+        "full_id": "w88128763",
+        "osm_id": 88128763,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4048465,
+          63.4013635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Extra",
+        "full_id": "w88447730",
+        "osm_id": 88447730,
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4050955,
+          63.3973615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "w88528304",
+        "osm_id": 88528304,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4036565,
+          63.398586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": null,
+        "full_id": "w171490255",
+        "osm_id": 171490255,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.339129,
+          63.350639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "w685873389",
+        "osm_id": 685873389,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3936371,
+          63.429993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Rema 1000",
+        "full_id": "w686672110",
+        "osm_id": 686672110,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.394298,
+          63.4299102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "w686919171",
+        "osm_id": 686919171,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3933926,
+          63.4300432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "w686919172",
+        "osm_id": 686919172,
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3941739,
+          63.4300262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "bakery",
+        "brand": null,
+        "full_id": "w686919173",
+        "osm_id": 686919173,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3931859,
+          63.4291305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "supermarket",
+        "brand": "Coop Mega",
+        "full_id": "w966305468",
+        "osm_id": 966305468,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4546202,
+          63.4366255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "shop": "kiosk",
+        "brand": "Narvesen",
+        "full_id": "w966305512",
+        "osm_id": 966305512,
+        "wheelchair": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4569962,
+          63.435668
+        ]
+      }
+    }
+  ]
+}
