@@ -14,7 +14,7 @@ langEN = {
 };
 
 langNO = {
-	"title_question" : "Husker du noen dagligvarebutikker som stengte i Trondheim?",
+	"title_question" : " Husker  du dagligvarebutikkene i Trondheim i 1980? ",
 	"title_instructions" : "Klikk på kartet der du mener en dagligvarebutikk eksisterte i 1980. Fyll ut informasjonen og trykk deretter på knappen \"Legg til en butikk\". En ny side åpnes. Du kan lukke den og gjerne legge til flere butikker.",
 	"dispOpen" : "Vis butikker i 2024",
 	"dispClosed" : "Vis butikker i 1980",
